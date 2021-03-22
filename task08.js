@@ -1,4 +1,4 @@
-function time(num){
+function ConvertToTime(num){
     var hours = parseInt(num / 60);
     var minutes = parseInt(num % 60);
     var hour = ' hour, ';
@@ -6,7 +6,7 @@ function time(num){
 
     if (hours != 1)
     {
-        hour = 'hours, ';
+        hour = ' hours, ';
     }
     if (minutes != 1)
     {
@@ -17,4 +17,4 @@ function time(num){
     return time;
 }
 
-console.log(time(121));
+console.log(ConvertToTime(121));

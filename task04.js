@@ -2,13 +2,13 @@ function evenOrOdd(num){
     var evenOrOdd;
     if (num % 2 == 0)
     {
-        evenOrOdd = "Even";
+        console.log("Even");
     } 
     else 
     {
-        evenOrOdd = "Odd";
+        console.log("Odd");
     }
     return evenOrOdd;
 }
 
-console.log(evenOrOdd(3));
+evenOrOdd(3);

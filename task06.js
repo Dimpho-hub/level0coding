@@ -1,4 +1,4 @@
-function maximum(){
+function MaximumNumber(){
     var max = 0;
     for (var i = 0; i < arguments.length; i++)
     {
@@ -10,4 +10,4 @@ function maximum(){
     return max;
 }
 
-console.log(maximum(1,22,4,3));
+console.log(MaximumNumber(1,22,4,3));

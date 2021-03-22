@@ -1,6 +1,6 @@
 function hello(name){
     var message = "Hello " + name + "!";
-    return message;
+    console.log(message);
 }
 
-console.log(hello("Dimpho"));
+hello("Dimpho");

@@ -32,6 +32,4 @@ function commonChars(string1, string2){
     return commonStr;
 }
 
-/*  Testing
-    console.log(commonChars("house","computers"));
-*/
+console.log(commonChars("house","computers"));

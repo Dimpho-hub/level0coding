@@ -1,4 +1,4 @@
-function area(num1, num2, num3){
+function AreaOfTriangle(num1, num2, num3){
     /* Semiperimiter of a triangle [S = (0.5) * (a + b + c)] */
     var s = (0.5) * (num1 + num2 + num3); 
 
@@ -8,4 +8,4 @@ function area(num1, num2, num3){
     return area;
 }
 
-console.log(area(3,4,5));
+console.log(AreaOfTriangle(3,4,5));

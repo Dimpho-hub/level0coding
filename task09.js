@@ -19,7 +19,7 @@ function vowels(string)
     }
     
     var vowelsInStr = vowlesInString.join(", ");
-    return vowelsInStr;
+    console.log(vowelsInStr);
 }
 
-console.log(vowels("Umuzi"));
+vowels("Umuzi");
